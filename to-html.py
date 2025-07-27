@@ -2,7 +2,7 @@ import os
 import csv
 
 def create_modern_html_page_same_folder(
-    input_csv='websites1.csv',
+    input_csv='websites.csv',
     images_dir='screenshot_thumbnails',
     output_html='index.html'
 ):
