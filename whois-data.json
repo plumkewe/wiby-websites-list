@@ -1,22 +1,4 @@
 {
-  "1stmuse.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "19100.neocities.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "101bananas.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "90thidpg.us": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "73-87.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "9p.io": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "2112.net": {
     "domain_name": "2112.NET",
     "registrar": "Gandi SAS",
@@ -118,21 +100,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "aaroncake.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "abduct.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "abandoned-places.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "abelard.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "aboutcalgary.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "accidont.ru": {
     "domain_name": "ACCIDONT.RU",
     "registrar": "RU-CENTER-RU",
@@ -147,36 +114,6 @@
     "status": "REGISTERED, DELEGATED, VERIFIED",
     "emails": null,
     "org": null
-  },
-  "acme.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "acid.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "acmewidgets.neocities.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "acolumbinesite.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "adequate.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "afghanistan.markslobin.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "acoustics.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "actorbuddyebsen.info": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "adelfaure.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "adrian-kingston.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "abiweb.jp": {
     "domain_name": "ABIWEB.JP",
@@ -297,18 +234,6 @@
       "101"
     ],
     "country": "IS"
-  },
-  "ajfroggie.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "airparamo.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "alaskaroads.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "alkerion.chez.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "aiplanet.sourceforge.net": {
     "domain_name": "SOURCEFORGE.NET",
@@ -610,18 +535,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "am-i-fat.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "amallison.free-online.co.uk": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "amazeworld.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "americanlongrifles.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "alsirat.com": {
     "domain_name": "ALSIRAT.COM",
     "registrar": "Wild West Domains, LLC",
@@ -667,12 +580,6 @@
     "registrant_postal_code": "85281",
     "country": "US"
   },
-  "americanmushrooms.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "amway.robinlionheart.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "allaboutfrogs.org": {
     "domain_name": "allaboutfrogs.org",
     "registrar": "Tucows Domains Inc.",
@@ -701,24 +608,6 @@
     "state": "ON",
     "registrant_postal_code": "REDACTED",
     "country": "CA"
-  },
-  "anatomyatlases.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "anahuactexasindependence.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "ancient-egypt.co.uk": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "ancient-wisdom.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "androdome.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "andrews-corner.org": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "alstevens.com": {
     "domain_name": "ALSTEVENS.COM",
@@ -751,15 +640,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "antique-microscopes.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "antennalaunchers.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "antiquecannabisbook.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "angelfire.com": {
     "domain_name": "ANGELFIRE.COM",
@@ -807,15 +687,6 @@
     "state": "Arizona",
     "registrant_postal_code": "85281",
     "country": "US"
-  },
-  "antiqueradio.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "antofthy.gitlab.io": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "aoi.com.au": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "animatedsoftware.com": {
     "domain_name": "ANIMATEDSOFTWARE.COM",
@@ -905,9 +776,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "apod.nasa.gov": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "archy.nl": {
     "domain_name": "archy.nl",
     "expiration_date": null,
@@ -927,21 +795,6 @@
       "ns01.one.com",
       "ns02.one.com"
     ]
-  },
-  "apolloexplorer.co.uk": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "apparent-wind.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "applesnail.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "aralsheart.nekoweb.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "archive.shikadi.net": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "asahi-net.or.jp": {
     "domain_name": "ASAHI-NET.OR.JP",
@@ -1095,9 +948,6 @@
     "registrant_postal_code": "GDPR Redacted",
     "country": "US"
   },
-  "asdf.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "arnoldexposed.com": {
     "domain_name": "ARNOLDEXPOSED.COM",
     "registrar": "Name.com, Inc.",
@@ -1127,18 +977,6 @@
     "state": "TX",
     "registrant_postal_code": "78760",
     "country": "US"
-  },
-  "ashidakim.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "asianart.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "associativemusic.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "astralis.it": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "ariel.com.au": {
     "domain_name": "ariel.com.au",
@@ -1265,9 +1103,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "atroshenko.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "atpobtvs.com": {
     "domain_name": "ATPOBTVS.COM",
     "registrar": "Network Solutions, LLC",
@@ -1292,21 +1127,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "atsf.railfan.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "automaticbeyondbelief.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "autopsyfiles.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "awn.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "bactra.org": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "basementarcade.com": {
     "domain_name": "BASEMENTARCADE.COM",
@@ -1478,18 +1298,6 @@
     "registrant_postal_code": "REDACTED FOR PRIVACY",
     "country": "US"
   },
-  "beanweb.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "beatleg.info": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "bedr00mz.neocities.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "beej.us": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "beaks.live": {
     "domain_name": "beaks.live",
     "registrar": "Mesh Digital Limited",
@@ -1656,15 +1464,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "bibliotecapleyades.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "binaries4all.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "bigear.org": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "birdfotos.com": {
     "domain_name": "BIRDFOTOS.COM",
@@ -4821,15 +4620,6 @@
       "ns3.flexwebhosting.com"
     ]
   },
-  "danluu.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "dannarchy.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "danslight.faithweb.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "darkstar1.co.uk": {
     "domain_name": "darkstar1.co.uk",
     "registrar": "Vision Internet Limited [Tag = VISIONINTERNET]",
@@ -4926,12 +4716,6 @@
     "state": "NY",
     "registrant_postal_code": "REDACTED",
     "country": "US"
-  },
-  "daye1.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "db.fursuit.me": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "davidwonn.kontek.net": {
     "domain_name": "KONTEK.NET",
@@ -7003,7 +6787,7 @@
     "registrant_name": "Nico de Jong",
     "registrant_address": "Orehoved Stationsvej 19",
     "registrant_postal_code": "4840",
-    "registrant_city": "N\ufffdrre Alslev",
+    "registrant_city": "N�rre Alslev",
     "registrant_country": "DK",
     "name_servers": [
       "ns5.megahost.dk",
@@ -7366,9 +7150,6 @@
     "registrant_postal_code": "REDACTED FOR PRIVACY",
     "country": "US"
   },
-  "fondulike.tramwayinfo.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "flowersofindia.net": {
     "domain_name": "FLOWERSOFINDIA.NET",
     "registrar": "Onlinenic Inc",
@@ -7537,12 +7318,6 @@
     "state": "PA",
     "registrant_postal_code": "REDACTED FOR PRIVACY",
     "country": "US"
-  },
-  "friedmanarchives.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "friesian.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "fourth-millennium.net": {
     "domain_name": "FOURTH-MILLENNIUM.NET",
@@ -7911,9 +7686,6 @@
     "signing_key": null,
     "status": "Active"
   },
-  "fzerowrs.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "furtoonia.net": {
     "domain_name": "FURTOONIA.NET",
     "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
@@ -8054,9 +7826,6 @@
       "101"
     ],
     "country": "IS"
-  },
-  "gemfire.drque.net": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "gbdev.gg8.se": {
     "domain_name": "gg8.se",
@@ -8257,9 +8026,6 @@
     ],
     "emails": null
   },
-  "ghostresearch.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "geosim.cs.vt.edu": {
     "domain_name": "VT.EDU",
     "creation_date": "1987-11-18T00:00:00",
@@ -8317,9 +8083,6 @@
     ],
     "country": "US"
   },
-  "ghouse.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "germanicmythology.com": {
     "domain_name": "GERMANICMYTHOLOGY.COM",
     "registrar": "Tucows Domains Inc.",
@@ -8344,9 +8107,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "gizapyramid.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "ghastlyghosthunter.com": {
     "domain_name": "GHASTLYGHOSTHUNTER.COM",
@@ -8558,9 +8318,6 @@
     "registrant_postal_code": "85281",
     "country": "US"
   },
-  "grandy02.shikadi.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "gofree.indigo.ie": {
     "domain_name": "indigo.ie",
     "creation_date": "1998-08-23T23:00:00",
@@ -8575,9 +8332,6 @@
     "tech_id": "552082-IEDR",
     "registrar": "Eir",
     "registrar_contact": "abuse@eir.ie"
-  },
-  "graphxkingdom.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "gopher.floodgap.com": {
     "domain_name": "FLOODGAP.COM",
@@ -8714,9 +8468,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "gregegan.net": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "gregdonner.org": {
     "domain_name": "gregdonner.org",
@@ -9464,8 +9215,8 @@
     "dnssec": "unsigned",
     "name": "Protected Protected",
     "org": "Shield Whois",
-    "address": "Radiov\u00e4gen 2",
-    "city": "V\u00e4stra Fr\u00f6lunda",
+    "address": "Radiovägen 2",
+    "city": "Västra Frölunda",
     "state": null,
     "registrant_postal_code": "42147",
     "country": "SE"
@@ -9733,9 +9484,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "hp9845.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "htomc.dns2go.com": {
     "domain_name": "DNS2GO.COM",
     "registrar": "Register.com - Network Solutions, LLC",
@@ -9912,9 +9660,6 @@
     "state": "Capital Region",
     "registrant_postal_code": "REDACTED",
     "country": "IS"
-  },
-  "ianenders.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "hyperphysics.phy-astr.gsu.edu": {
     "domain_name": "GSU.EDU",
@@ -10176,9 +9921,6 @@
     "state": "Paris",
     "registrant_postal_code": "75013",
     "country": "FR"
-  },
-  "ilovegetsmart.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "gregfewbaconahay14.neocities.org": {
     "domain_name": "neocities.org",
@@ -10488,9 +10230,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "itsevergreen.rip": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "islandregister.com": {
     "domain_name": "ISLANDREGISTER.COM",
@@ -12381,9 +12120,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "lirc.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "juliestudio.com": {
     "domain_name": "JULIESTUDIO.COM",
     "registrar": "NameCheap, Inc.",
@@ -12512,9 +12248,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "loveascii.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "longpoke.github.io": {
     "domain_name": null,
     "domain__id": null,
@@ -12529,9 +12262,6 @@
     "creation_date": null,
     "expiration_date": null,
     "updated_date": null
-  },
-  "luft46.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "lotrscrapbook.bookloaf.net": {
     "domain_name": "BOOKLOAF.NET",
@@ -12739,9 +12469,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "man.fas.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "macedonia.com": {
     "domain_name": "MACEDONIA.COM",
     "registrar": "NameSilo, LLC",
@@ -12785,9 +12512,6 @@
     "state": "NY",
     "registrant_postal_code": "11105",
     "country": "US"
-  },
-  "marauder.homestead.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "magnacartaplus.org": {
     "domain_name": "magnacartaplus.org",
@@ -12840,7 +12564,7 @@
     "whois_server": "whois.ca.fury.ca",
     "registrar": "RIQ, a division of Bell Canada",
     "registrar_url": "https://portail.riq.qc.ca/",
-    "registrant_name": "Universit\u00e9 de Montr\u00e9al",
+    "registrant_name": "Université de Montréal",
     "registrant_number": "12711979-CIRA",
     "admin_name": "Daniel Letarte",
     "status": "ok https://icann.org/epp#ok",
@@ -13019,12 +12743,6 @@
     ],
     "emails": null
   },
-  "math.columbia.edu": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "math.nyu.edu": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "marvelite.prohosting.com": {
     "domain_name": "PROHOSTING.COM",
     "registrar": "Tucows Domains Inc.",
@@ -13053,9 +12771,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "mathcs.clarku.edu": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "mathlair.allfunandgames.ca": {
     "domain_name": "allfunandgames.ca",
@@ -15307,12 +15022,6 @@
     "registrant_postal_code": null,
     "country": "US"
   },
-  "onlyshojo.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "opensourcerules.info": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "omick.net": {
     "domain_name": "OMICK.NET",
     "registrar": "Tucows Domains Inc.",
@@ -15509,9 +15218,6 @@
     "registrant_postal_code": "REDACTED FOR PRIVACY",
     "country": "US"
   },
-  "pages.ca.inter.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "origamiboulder.com": {
     "domain_name": "ORIGAMIBOULDER.COM",
     "registrar": "GoDaddy.com, LLC",
@@ -15594,12 +15300,6 @@
     "registrant_postal_code": "REDACTED FOR PRIVACY",
     "country": "NL"
   },
-  "pages.ucsd.edu": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "parente.fe.it": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "opossum.org": {
     "domain_name": "opossum.org",
     "registrar": "Tucows Domains Inc.",
@@ -15625,9 +15325,6 @@
     "registrant_postal_code": "REDACTED",
     "country": "US"
   },
-  "partsofsw.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "owrigami.com": {
     "domain_name": "OWRIGAMI.COM",
     "registrar": "Tucows Domains Inc.",
@@ -15652,9 +15349,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "patcoston.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "oshogulaab.com": {
     "domain_name": "OSHOGULAAB.COM",
@@ -15720,9 +15414,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "pdacortex.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "pdj.home.xs4all.nl": {
     "domain_name": "xs4all.nl",
@@ -15799,9 +15490,6 @@
     "registrant_postal_code": "REDACTED",
     "country": "US"
   },
-  "penger.city": {
-    "error": "% TCI Whois Service. Terms of use:\n% https://tcinet.ru/documents/whois_ru_rf.pdf (in Russian)\n% https://tcinet.ru/documents/whois_su.pdf (in Russian)\n\nNo entries found for the selected source(s).\n\nLast updated on 2025-07-26T02:28:01Z\n\n"
-  },
   "paulburgess.org": {
     "domain_name": "paulburgess.org",
     "registrar": "Tucows Domains Inc.",
@@ -15828,12 +15516,6 @@
     "state": "IA",
     "registrant_postal_code": "REDACTED",
     "country": "US"
-  },
-  "pennoaks.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "people.cs.umass.edu": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "pc0.hapisan.com": {
     "domain_name": "HAPISAN.COM",
@@ -15963,12 +15645,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "petermolnar.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "petracortright.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "patoczka.net": {
     "domain_name": "PATOCZKA.NET",
     "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
@@ -16003,9 +15679,6 @@
     "state": "Florida",
     "registrant_postal_code": "34238",
     "country": "US"
-  },
-  "phatboy.iwarp.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "petawawalegion.ca": {
     "domain_name": "petawawalegion.ca",
@@ -16165,7 +15838,7 @@
       "ns1.wer.pl",
       "ns2.wer.pl"
     ],
-    "registrar": "Dinfo.pl Sylwia Wiero\u0144ska",
+    "registrar": "Dinfo.pl Sylwia Wierońska",
     "registrar_url": null,
     "status": null,
     "registrant_name": null,
@@ -16669,9 +16342,6 @@
     "registrant_postal_code": "REDACTED FOR PRIVACY",
     "country": "US"
   },
-  "psywarrior.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "prankoperator.com": {
     "domain_name": "PRANKOPERATOR.COM",
     "registrar": "GoDaddy.com, LLC",
@@ -16940,9 +16610,6 @@
     "state": "CA",
     "registrant_postal_code": "REDACTED",
     "country": "US"
-  },
-  "rainknight.net": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "rainforest.gardenwebs.net": {
     "domain_name": "GARDENWEBS.NET",
@@ -17554,7 +17221,7 @@
     "org": null,
     "address": "Redacted by Privacy",
     "city": "Redacted by Privacy",
-    "state": "A Coru\ufffda",
+    "state": "A Coru�a",
     "registrant_postal_code": "Redacted by Privacy",
     "country": "ES"
   },
@@ -18276,9 +17943,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "scpr.co": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "sca.uwaterloo.ca": {
     "domain_name": "uwaterloo.ca",
     "whois_server": "whois.ca.fury.ca",
@@ -18306,9 +17970,6 @@
       "cn-dns-mc-new.uwaterloo.ca",
       "ext-dns-azure-a.uwaterloo.ca"
     ]
-  },
-  "scv1302.homestead.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "semitech.com": {
     "domain_name": "SEMITECH.COM",
@@ -19508,12 +19169,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "starhaven.kontek.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "starsfaq.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "stanleymotorcarriage.com": {
     "domain_name": "STANLEYMOTORCARRIAGE.COM",
@@ -21519,9 +21174,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "toastytech.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "timefracture.org": {
     "domain_name": "timefracture.org",
     "registrar": "Net-Chinese Co., Ltd.",
@@ -21547,9 +21199,6 @@
     "state": "CO",
     "registrant_postal_code": "REDACTED",
     "country": "US"
-  },
-  "tomtilley.net": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "tipthepizzaguy.com": {
     "domain_name": "TIPTHEPIZZAGUY.COM",
@@ -21614,9 +21263,6 @@
     "state": "Austria",
     "registrant_postal_code": null,
     "country": "AT"
-  },
-  "tongue-twister.net": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "tnca.myrmid.com": {
     "domain_name": "MYRMID.COM",
@@ -21830,21 +21476,6 @@
     "registrant_postal_code": "REDACTED FOR PRIVACY",
     "country": "CA"
   },
-  "trashparadise.neocities.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "tribunesandtriumphs.org": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "tri-ang.co.uk": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "trinity.whsites.net": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "trilobites.info": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "thebaratusii.com": {
     "domain_name": "THEBARATUSII.COM",
     "registrar": "NameCheap, Inc.",
@@ -22049,15 +21680,6 @@
     "registrant_postal_code": null,
     "country": null
   },
-  "tylersterritory.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "ucmp.berkeley.edu": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "ucw.cz": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "txt.fyi": {
     "domain_name": "txt.fyi",
     "registrar": "Cloudflare, Inc",
@@ -22082,9 +21704,6 @@
     "state": "Pennsylvania",
     "registrant_postal_code": "REDACTED",
     "country": "US"
-  },
-  "undertheredstar.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "ufobc.ca": {
     "domain_name": "ufobc.ca",
@@ -22115,7 +21734,7 @@
   },
   "users.abo.fi": {
     "domain_name": "abo.fi",
-    "name": "\ufffdbo Akademi",
+    "name": "�bo Akademi",
     "address": "Varikinkatu 3B",
     "phone": null,
     "email": null,
@@ -22167,9 +21786,6 @@
     "creation_date": "1985-04-24T00:00:00",
     "lats_modified": "04-Jun-2024",
     "expiration_date": "2027-07-31T00:00:00"
-  },
-  "users.rcn.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "users.globalnet.co.uk": {
     "domain_name": "globalnet.co.uk",
@@ -22253,9 +21869,6 @@
     "registrant_postal_code": null,
     "country": "IS"
   },
-  "users.tmok.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "users.glitchwrks.com": {
     "domain_name": "GLITCHWRKS.COM",
     "registrar": "Pair Domains",
@@ -22296,12 +21909,6 @@
     "registrant_postal_code": "GDPR Redacted",
     "country": "US"
   },
-  "uspapermoney.info": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "videogameobsession.com": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
   "velmadinkley.com": {
     "domain_name": "VELMADINKLEY.COM",
     "registrar": "GoDaddy.com, LLC",
@@ -22331,9 +21938,6 @@
     "state": null,
     "registrant_postal_code": null,
     "country": null
-  },
-  "videogames101.net": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "v8sho.com": {
     "domain_name": "V8SHO.COM",
@@ -22402,12 +22006,6 @@
     "status": "REGISTERED, DELEGATED, VERIFIED",
     "emails": null,
     "org": null
-  },
-  "virus.stanford.edu": {
-    "error": "[Errno 54] Connection reset by peer"
-  },
-  "visualships.com": {
-    "error": "[Errno 54] Connection reset by peer"
   },
   "vulkaner.no": {
     "domain_name": "vulkaner.no",
@@ -22497,10 +22095,10 @@
     "dnssec": "Unsigned delegation",
     "status": "Active",
     "registrant_handle": "***N/A***",
-    "registrant_name": "Klaus Haahr J\ufffdrgensen",
-    "registrant_address": "Led\ufffdje",
+    "registrant_name": "Klaus Haahr J�rgensen",
+    "registrant_address": "Led�je",
     "registrant_postal_code": "2765",
-    "registrant_city": "Sm\ufffdrum",
+    "registrant_city": "Sm�rum",
     "registrant_country": "DK",
     "name_servers": [
       "ns3.nordicway.dk",
