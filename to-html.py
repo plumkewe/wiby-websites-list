@@ -95,15 +95,19 @@ def create_modern_html_page_same_folder(
             value = row.get(c, '')
             if c == 'screenshot':
                 idx = row.get('index', '')
-                fn = f"{idx}.png"
                 url = row.get('url', '#').replace('"', '&quot;')
-                img_path = os.path.join(images_dir, fn)
                 html.append('<td class="screenshot-cell">')
-                if os.path.exists(img_path):
-                    html.append(
-                        f'<a href="{url}" target="_blank" rel="noopener noreferrer">'
-                        f'<img src="{images_dir}/{fn}" class="thumbnail" alt="screenshot"></a>'
-                    )
+                
+                # Prova con .png, .jpg, .jpeg
+                for ext in ['png', 'jpg', 'jpeg']:
+                    fn = f"{idx}.{ext}"
+                    img_path = os.path.join(images_dir, fn)
+                    if os.path.exists(img_path):
+                        html.append(
+                            f'<a href="{url}" target="_blank" rel="noopener noreferrer">'
+                            f'<img src="{images_dir}/{fn}" class="thumbnail" alt="screenshot"></a>'
+                        )
+                        break  # Usa il primo trovato
                 html.append('</td>')
             elif c == 'url':
                 html.append(f'<td class="url-cell"><a href="{value}" target="_blank" rel="noopener noreferrer">{value}</a></td>')
