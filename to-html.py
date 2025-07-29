@@ -1,169 +1,185 @@
-import os
 import csv
+import os
+import json
 
-def create_modern_html_page_same_folder(
-    input_csv='websites.csv',
-    images_dir='screenshot_thumbnails',
-    output_html='index.html'
-):
-    with open(input_csv, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter=';')
-        rows = list(reader)
-        fieldnames = reader.fieldnames
+def color_dot(rgb_str):
+    try:
+        rgb = tuple(map(int, rgb_str.strip("() ").split(",")))
+        if len(rgb) != 3:
+            raise ValueError
+        return f'<span class="color-dot" style="background-color: rgb{rgb};"></span>{rgb_str}'
+    except:
+        return '<span class="text-muted">N/A</span>'
 
-    # Aggiunge index se mancante e ordina
-    if "index" in fieldnames:
-        rows.sort(key=lambda x: int(x.get('index', 0)))
-    else:
-        for i, row in enumerate(rows):
-            row["index"] = str(i + 1)
-        fieldnames = ["index"] + fieldnames
-
-    # Inserisce screenshot, title, description dopo index
-    filtered = [c for c in fieldnames if c not in ('title', 'description')]
-    new_fields = []
-    for c in filtered:
-        new_fields.append(c)
-        if c == 'index':
-            new_fields += ['screenshot', 'title', 'description']
-
-    # Inizio HTML
-    html = [
-        '<!DOCTYPE html>',
-        '<html lang="en"><head>',
-        '  <meta charset="UTF-8">',
-        '  <meta name="viewport" content="width=device-width, initial-scale=1.0">',
-        '  <title>Wiby list</title>',
-        '  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">',
-        '  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">',
-        '  <style>',
-        '    .screenshot-cell {',
-        '      width: 238px;',
-        '      height: 109px;',
-        '      text-align: center;',
-        '      vertical-align: middle;',
-        '    }',
-        '    img.thumbnail {',
-        '      width: 221px;',
-        '      height: auto;',
-        '      object-fit: cover;',
-        '    }',
-        '    .desc-clamp {',
-        '      width: 400px;',
-        '      max-height: 92px;',
-        '      overflow: scroll;',
-        '      position: relative;',
-        '    }',
-        '    .read-more {',
-        '      cursor: pointer;',
-        '      color: #0d6efd;',
-        '      text-decoration: underline;',
-        '      display: none;',
-        '      margin-top: 5px;',
-        '    }',
-        '    .expanded { max-height: none !important; }',
-        '    th, td { vertical-align: middle; }',
-        '    td.title-cell {',
-        '      width: 300px;',
-        '      min-width: 300px;',
-        '      max-width: 300px;',
-        '      word-wrap: break-word;',
-        '      white-space: normal;',
-        '    }',
-        '    .table-responsive {',
-        '      overflow-x: auto;',
-        '      -ms-overflow-style: none;',
-        '      scrollbar-width: none;',
-        '    }',
-        '    .table-responsive::-webkit-scrollbar { display: none; }',
-        '  </style>',
-        '</head><body>',
-        '<div class="container py-4">',
-        '  <h1 class="mb-4">Wiby list</h1>',
-        '  <div class="table-responsive">',
-        '    <table id="websites-table" class="table table-bordered table-hover table-striped align-middle">',
-        '      <thead><tr>'
+def generate_row(data, screenshot_folder):
+    idx = data['index']
+    img_html = '<div class="text-muted">No image</div>'
+    for ext in ['png', 'jpg', 'jpeg']:
+        path = os.path.join(screenshot_folder, f"{idx}.{ext}")
+        if os.path.exists(path):
+            img_html = f'<img src="{path}" class="screenshot" onclick="window.open(\'{data["url"]}\')">'
+            break
+    return [
+        idx,
+        img_html,
+        f'<div class="scrollable-text">{data["title"]}</div>',
+        f'<div class="scrollable-text">{data["description"]}</div>',
+        f'<a href="{data["url"]}" target="_blank">{data["url"]}</a>',
+        data['creation_date'],
+        data['domain'],
+        color_dot(data['primary']),
+        color_dot(data['secondary']),
+        color_dot(data['tertiary']),
     ]
 
-    for c in new_fields:
-        html.append(f'        <th>{c.capitalize()}</th>')
-    html.append('      </tr></thead><tbody>')
+def main():
+    data_rows = []
+    with open('websites.csv', newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile, delimiter=';')
+        for row in reader:
+            data_rows.append(generate_row(row, 'screenshot_thumbnails'))
 
-    for row in rows:
-        html.append('      <tr>')
-        for c in new_fields:
-            value = row.get(c, '')
-            if c == 'screenshot':
-                idx = row.get('index', '')
-                url = row.get('url', '#').replace('"', '&quot;')
-                html.append('<td class="screenshot-cell">')
-                
-                # Prova con .png, .jpg, .jpeg
-                for ext in ['png', 'jpg', 'jpeg']:
-                    fn = f"{idx}.{ext}"
-                    img_path = os.path.join(images_dir, fn)
-                    if os.path.exists(img_path):
-                        html.append(
-                            f'<a href="{url}" target="_blank" rel="noopener noreferrer">'
-                            f'<img src="{images_dir}/{fn}" class="thumbnail" alt="screenshot"></a>'
-                        )
-                        break  # Usa il primo trovato
-                html.append('</td>')
-            elif c == 'url':
-                html.append(f'<td class="url-cell"><a href="{value}" target="_blank" rel="noopener noreferrer">{value}</a></td>')
-            elif c == 'title':
-                escaped_value = value.replace('"', '&quot;')
-                html.append(f'<td class="title-cell">{escaped_value}</td>')
-            elif c == 'description':
-                escaped_value = value.replace('"', '&quot;')
-                html.append(
-                    '<td>'
-                    f'<div class="desc-clamp">{escaped_value}</div>'
-                    f'<span class="read-more">Read more</span>'
-                    '</td>'
-                )
-            elif c == 'creation_date':
-                html.append(f'<td class="data-cell">{value}</td>')
-            elif c == 'domain':
-                html.append(f'<td class="domain-cell">{value}</td>')
-            else:
-                html.append(f'<td>{value}</td>')
-        html.append('      </tr>')
+    html = f'''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#ffffff">
+    <title>Wiby list</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css">
+    <style>
+        html, body {{
+            background-color: #ffffff;
+        }}
+        .scrollable-text {{
+            max-height: 109px;
+            overflow-y: auto;
+            white-space: normal;
+            text-overflow: unset;
+        }}
+        .screenshot {{
+            width: 221px;
+            height: auto;
+            cursor: pointer;
+        }}
+        .color-dot {{
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-right: 5px;
+            vertical-align: middle;
+        }}
+        table {{
+            table-layout: fixed;
+            width: 100%;
+        }}
+        table td {{
+            vertical-align: middle;
+            height: 109px;
+            max-height: 109px;
+            overflow: hidden;
+        }}
+        td .scrollable-text {{
+            white-space: normal;
+            text-overflow: unset;
+        }}
+        table th {{
+            text-transform: uppercase;
+            font-weight: bold;
+            vertical-align: middle;
+        }}
+        /* Blur overlay styles */
+        #loading-overlay {{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }}
+        body.loading #page-content {{
+            filter: blur(4px);
+            pointer-events: none;
+        }}
+    </style>
+</head>
+<body class="loading">
 
-    order_column = new_fields.index("index") if "index" in new_fields else 0
+    <!-- Loading Overlay -->
+    <div id="loading-overlay">
+        <div class="spinner-border text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
 
-    html += [
-        '  </tbody></table>',
-        '  </div>',
-        '</div>',
-        '<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>',
-        '<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>',
-        '<script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>',
-        '<script>',
-        '  $(function() {',
-        f'    var table = $("#websites-table").DataTable({{"order": [[{order_column}, "asc"]],',
-        '      "lengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]]',
-        '    });',
-        '    $(".desc-clamp").each(function() {',
-        '      if (this.scrollHeight > 92) {',
-        '        $(this).next(".read-more").show();',
-        '      }',
-        '    });',
-        '    $(".read-more").on("click", function() {',
-        '      var desc = $(this).prev(".desc-clamp");',
-        '      desc.toggleClass("expanded");',
-        '      $(this).text(desc.hasClass("expanded") ? "Show less" : "Read more");',
-        '    });',
-        '  });',
-        '</script>',
-        '</body></html>'
-    ]
+    <div class="container-fluid" id="page-content">
+        <h2>Wiby list</h2>
+        <table id="webTable" class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>INDEX</th>
+                    <th>SCREENSHOT</th>
+                    <th>TITLE</th>
+                    <th>DESCRIPTION</th>
+                    <th>URL</th>
+                    <th>CREATION_DATE</th>
+                    <th>DOMAIN</th>
+                    <th>PRIMARY</th>
+                    <th>SECONDARY</th>
+                    <th>TERTIARY</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
 
-    out = os.path.join(os.path.dirname(__file__), output_html)
-    with open(out, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(html))
-        
-    print(f"Generated: {out}")
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        const data = {json.dumps(data_rows)};
+
+        $(document).ready(function () {{
+            $('body').addClass('loading');
+
+            $('#webTable').DataTable({{
+                data: data,
+                pageLength: 10,
+                lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
+                columns: [
+                    {{ title: "INDEX", width: "84px" }},
+                    {{ title: "SCREENSHOT", width: "236px" }},
+                    {{ title: "TITLE", width: "220px" }},
+                    {{ title: "DESCRIPTION", width: "300px" }},
+                    {{ title: "URL", width: "220px" }},
+                    {{ title: "CREATION_DATE", width: "168px" }},
+                    {{ title: "DOMAIN", width: "216px" }},
+                    {{ title: "PRIMARY", width: "216px" }},
+                    {{ title: "SECONDARY", width: "216px" }},
+                    {{ title: "TERTIARY", width: "216px" }}
+                ],
+                initComplete: function () {{
+                    $('#loading-overlay').fadeOut(300);
+                    $('body').removeClass('loading');
+                }}
+            }});
+        }});
+    </script>
+</body>
+</html>
+'''
+    with open("index.html", "w", encoding="utf-8") as f:
+        f.write(html)
+
+    print("✅ index.html generato con blur e animazione di caricamento.")
 
 if __name__ == "__main__":
-    create_modern_html_page_same_folder()
+    main()
+    
