@@ -1,0 +1,91 @@
+<meta charset="UTF-8">
+<h1>Wiby websites list</h1>
+
+<hr />
+
+<h2>Made with</h2>
+
+<p><p>
+    <img height="32" width="32" src="https://cdn.simpleicons.org/html5/orange" />
+    <img height="32" width="32" src="https://cdn.simpleicons.org/css/orange" />
+    <img height="32" width="32" src="https://cdn.simpleicons.org/javascript/orange" />
+    <img height="32" width="32" src="https://cdn.simpleicons.org/python/orange" />
+    <img height="32" width="32" src="https://cdn.simpleicons.org/openai/orange" />
+    <p></p>
+
+<pre><code>    ---
+</code></pre>
+
+<p><code>bash
+pip install python-whois tqdm selenium webdriver-manager pillow scikit-learn numpy
+</code></p>
+
+<p><code>txt
+wiby-websites.list/
+├── websites.csv                ← Main dataset: URL, title, description, domain, creation date, colors
+├── index.html                  ← Homepage generated from `to-html.py`
+├── scraper.py                  ← Scrapes Wiby links, fetches WHOIS, title, description, and stores data in CSV
+├── additional.py               ← Compresses PNG screenshots and extracts dominant colors (KMeans)
+├── to-html.py                  ← Converts the CSV data into a browsable HTML site
+├── whois-data.json             ← Cached WHOIS data for discovered domains
+├── missing_whois-data.txt      ← List of domains where WHOIS lookup failed
+├── blacklisted.txt             ← List of domains to ignore during scraping
+│
+├── screenshots_to_optimize/    ← Raw PNG screenshots (pre-compression)
+│   ├── 3030.png
+│   ├── 3031.png
+│   ├── 3033.png
+│   └── ... (more screenshots)
+│
+├── screenshot_thumbnails/      ← Optimized JPEG thumbnails (compressed version of screenshots)
+│   ├── 3011.jpg
+│   ├── 193.jpg
+│   └── ... (more thumbnails)
+│
+└── extra/                      ← Auxiliary files
+    ├── color/                  ← Color analysis
+    │   └── ... (optional files)
+    ├── res/                    ← Additional site assets
+    │   └── ... 
+    └── screenshots_with_error/ ← Screenshots with errors
+        ├── 3054.jpg
+        ├── 3078.jpg
+        ├── 2910.jpg
+        └── ...
+</code></p>
+
+<p>```mermaid
+flowchart TD
+    A[Start: scraper.py] --> B[Visit Wiby Surprise URL using Selenium]
+    B --> C{Is URL valid and not seen before?}
+    C -- no --> B
+    C -- yes --> D[Extract title, description, and domain]
+    D --> E[Add to new<em>rows and new</em>domains]
+    E --> F{Have 250 websites been collected?}
+    F -- no --> B
+    F -- yes --> G[Close browser]</p>
+
+<pre><code>G --&gt; H[Fetch WHOIS data using 10 threads]
+H --&gt; I[Save WHOIS info to JSON file]
+H --&gt; J[Log missing domains to .txt file]
+I --&gt; K[Merge new sites with existing ones]
+K --&gt; L[Write all data to websites.csv]
+
+L --&gt; M[Open headless browser for screenshots]
+M --&gt; N[Take PNG screenshots of new websites]
+N --&gt; O[Close browser]
+
+O --&gt; P[Start: additional.py]
+P --&gt; Q[Compress screenshots and convert to JPEG]
+Q --&gt; R[Extract dominant colors using KMeans]
+R --&gt; S[Update CSV with primary, secondary, tertiary colors]
+S --&gt; T[End]
+
+style A fill:#6a1b9a,stroke:#ffffff,stroke-width:1.5px,color:#fff
+style P fill:#0277bd,stroke:#ffffff,stroke-width:1.5px,color:#fff
+style T fill:#2e7d32,stroke:#ffffff,stroke-width:1.5px,color:#fff
+style C fill:#ef6c00,stroke:#ffffff,stroke-width:1.5px,color:#fff
+style F fill:#ef6c00,stroke:#ffffff,stroke-width:1.5px,color:#fff
+</code></pre>
+
+<p>```</p>

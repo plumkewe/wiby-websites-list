@@ -2,6 +2,10 @@ import csv
 import os
 import json
 
+WEBSITES_CSV = "websites.csv"
+SCREENSHOT_FOLDER = "screenshot_thumbnails"
+OUTPUT_HTML = "index.html"
+
 def color_dot(rgb_str):
     try:
         rgb = tuple(map(int, rgb_str.strip("() ").split(",")))
@@ -34,10 +38,10 @@ def generate_row(data, screenshot_folder):
 
 def main():
     data_rows = []
-    with open('websites.csv', newline='', encoding='utf-8') as csvfile:
+    with open(WEBSITES_CSV, newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile, delimiter=';')
         for row in reader:
-            data_rows.append(generate_row(row, 'screenshot_thumbnails'))
+            data_rows.append(generate_row(row, SCREENSHOT_FOLDER))
 
     html = f'''
 <!DOCTYPE html>
@@ -90,7 +94,6 @@ def main():
             font-weight: bold;
             vertical-align: middle;
         }}
-        /* Blur overlay styles */
         #loading-overlay {{
             position: fixed;
             top: 0;
@@ -112,7 +115,6 @@ def main():
 </head>
 <body class="loading">
 
-    <!-- Loading Overlay -->
     <div id="loading-overlay">
         <div class="spinner-border text-light" role="status">
             <span class="visually-hidden">Loading...</span>
@@ -146,40 +148,65 @@ def main():
     <script>
         const data = {json.dumps(data_rows)};
 
+        function getSavedPage() {{
+            const saved = localStorage.getItem("datatable_current_page");
+            return saved ? parseInt(saved) : 0;
+        }}
+
+        function savePage(pageIndex) {{
+            localStorage.setItem("datatable_current_page", pageIndex);
+        }}
+
         $(document).ready(function () {{
             $('body').addClass('loading');
 
-            $('#webTable').DataTable({{
+            const table = $('#webTable').DataTable({{
                 data: data,
                 pageLength: 10,
                 lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
+                displayStart: getSavedPage() * 10,
                 columns: [
                     {{ title: "INDEX", width: "84px" }},
                     {{ title: "SCREENSHOT", width: "236px" }},
                     {{ title: "TITLE", width: "220px" }},
                     {{ title: "DESCRIPTION", width: "300px" }},
-                    {{ title: "URL", width: "220px" }},
+                    {{ title: "URL", width: "250px" }},
                     {{ title: "CREATION_DATE", width: "168px" }},
                     {{ title: "DOMAIN", width: "216px" }},
-                    {{ title: "PRIMARY", width: "216px" }},
-                    {{ title: "SECONDARY", width: "216px" }},
-                    {{ title: "TERTIARY", width: "216px" }}
+                    {{ title: "PRIMARY", width: "150px" }},
+                    {{ title: "SECONDARY", width: "150px" }},
+                    {{ title: "TERTIARY", width: "150px" }}
                 ],
                 initComplete: function () {{
                     $('#loading-overlay').fadeOut(300);
                     $('body').removeClass('loading');
                 }}
             }});
+
+            table.on('page', function () {{
+                const currentPage = table.page();
+                savePage(currentPage);
+            }});
+
+            $('#webTable_filter input').on('input', function () {{
+                if ($(this).val() === '') {{
+                    const savedPage = getSavedPage();
+                    table.page(savedPage).draw('page');
+                }}
+            }});
+
+            window.addEventListener("beforeunload", function () {{
+                savePage(table.page());
+            }});
         }});
     </script>
-</body>
+    </body>
 </html>
 '''
-    with open("index.html", "w", encoding="utf-8") as f:
+    with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
         f.write(html)
 
-    print("✅ index.html generato con blur e animazione di caricamento.")
+    print("Done!")
 
 if __name__ == "__main__":
     main()
-    
