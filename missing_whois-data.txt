@@ -18,6 +18,7 @@ airvectors.net
 ajsferretgifarchive.neocities.org
 alaskaroads.com
 aleph.se
+allaboutfrogs.org
 americanlongrifles.com
 antipatterns.com
 antofthy.gitlab.io
@@ -37,6 +38,7 @@ bamsoftware.com
 batheinmymilk.com
 beadiecritters.com
 beej.us
+biblebelievers.com
 bigbeautifulbackgrounds.com
 blyka.legends-station.com
 bookmice.net
@@ -156,6 +158,7 @@ geometer.org
 geosim.cs.vt.edu
 geouniversal.neocities.org
 glaurung.mordor.ch
+godecookery.com
 godsstones.com
 goldeneyeforever.com
 goliathindustries.com
@@ -169,6 +172,7 @@ graphxkingdom.com
 grimgrains.com
 grin.hu
 grugbrain.dev
+gtfour.supras.org.nz
 gunney-hwy.freeservers.com
 hancock-web.com
 harmonyzone.org
@@ -188,6 +192,7 @@ htmlbible.com
 hughsmith.org
 hull534.freeshell.org
 hypnotoad.esva.net
+ichi.city
 imarshall.karoo.net
 impressive.net
 intuitor.com
@@ -227,6 +232,7 @@ londonbusroutes.net
 longpoke.github.io
 lotrscrapbook.bookloaf.net
 lx.oliva.nom.br
+macedonia.com
 manweb-remembered.co.uk
 mapsu.org
 marc.merlins.org
@@ -276,6 +282,7 @@ notepad.org
 nothings.org
 nsminerals.atspace.com
 oldskool.org
+organstops.org
 oriwiki.com
 parareligion.ch
 parthia.com
@@ -305,6 +312,7 @@ qalle.neocities.org
 quixotic.htmlplanet.com
 quovadis.org
 r-type.org
+red-coral.net
 retrotechlounge.com
 rewindmuseum.com
 richardandkarencarpenter.com
@@ -335,6 +343,7 @@ sidetalking.com
 sister-unns.com
 sjvgeology.org
 sk8tokyo.com
+ski.ihoc.net
 skrark.com
 snesmusic.org
 softpaw.org
@@ -342,6 +351,7 @@ sosaplayhouse.com
 squaresoft.thegia.com
 squiggle.city
 stcom
+stereo.jpn.org
 stroustrup.com
 supervinx.com
 t-mugen.com
@@ -386,6 +396,7 @@ w3.org
 wa8lmf.net
 waldeneffect.org
 wallyworldlife.com
+ward-6.com
 warpaths2peacepipes.com
 washedashore.com
 wavethemes.net
@@ -399,11 +410,13 @@ wiby.me
 wideweb.com
 windows1995.ct.ws
 wisdomgoddess.faithweb.com
+worldtimezone.com
 wunderland.com
 www-cs-students.stanford.edu
 wwwwwwjodi.org
 yosemite-sam.net
 yyyyyyy.info
+zackssnakes.50megs.com
 zaytnzcity.neocities.org
 zeeslag.ichi.city
 zompist.com

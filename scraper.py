@@ -20,7 +20,7 @@ import concurrent.futures
 import time
 
 # CONFIGURATION PARAMETERS
-NUM_WEBSITES_TO_FIND = 250  # Number of websites to scrape
+NUM_WEBSITES_TO_FIND = 100  # Number of websites to scrape
 WEBSITES_CSV = "websites.csv"  # CSV file where websites info will be saved
 WHOIS_JSON = "whois-data.json"  # JSON file to store WHOIS data
 MISSING_WHOIS = "missing_whois-data.txt"  # Text file to track domains with failed WHOIS lookup
