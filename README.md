@@ -12,7 +12,7 @@ I’ve always wanted to have a repository like this where I can explore the webs
     <img height="32" width="32" src="https://cdn.simpleicons.org/javascript/orange" />
     <img height="32" width="32" src="https://cdn.simpleicons.org/python/orange" />
     <img height="32" width="32" src="https://cdn.simpleicons.org/openai/orange" />
-    <p>
+<p>
 
 ---
 
@@ -79,7 +79,8 @@ wiby-websites.list/
 
 ---
 
-## Usage
+
+## Usage
 
 1. Run the scraper:
 

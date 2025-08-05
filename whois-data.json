@@ -65207,5 +65207,596 @@
     "state": "Capital Region",
     "registrant_postal_code": "REDACTED",
     "country": "IS"
+  },
+  "lx.oliva.nom.br": {
+    "domain_name": null,
+    "registrant_name": null,
+    "registrant_id": null,
+    "country": null,
+    "owner_c": null,
+    "admin_c": null,
+    "tech_c": null,
+    "billing_c": null,
+    "name_server": null,
+    "nsstat": null,
+    "nslastaa": null,
+    "saci": null,
+    "creation_date": null,
+    "updated_date": null,
+    "expiration_date": null,
+    "status": null,
+    "nic_hdl_br": null,
+    "person": null,
+    "email": null
+  },
+  "burningwell.org": {
+    "domain_name": "burningwell.org",
+    "registrar": "DreamHost, LLC",
+    "registrar_url": "http://www.dreamhost.com/",
+    "reseller": null,
+    "whois_server": "http://whois.dreamhost.com",
+    "referral_url": null,
+    "updated_date": "2025-06-30 11:04:00",
+    "creation_date": "2004-07-30 14:15:02",
+    "expiration_date": "2026-07-30 14:15:02",
+    "name_servers": [
+      "ns1.dreamhost.com",
+      "ns2.dreamhost.com",
+      "ns3.dreamhost.com"
+    ],
+    "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "emails": "domain-abuse@dreamhost.com",
+    "dnssec": "unsigned",
+    "name": "REDACTED",
+    "org": "Proxy Protection LLC",
+    "address": "REDACTED",
+    "city": "REDACTED",
+    "state": "CA",
+    "registrant_postal_code": "REDACTED",
+    "country": "US"
+  },
+  "mreclipse.com": {
+    "domain_name": "MRECLIPSE.COM",
+    "registrar": "Network Solutions, LLC",
+    "registrar_url": "http://networksolutions.com",
+    "reseller": null,
+    "whois_server": "whois.networksolutions.com",
+    "referral_url": null,
+    "updated_date": [
+      "2024-04-27 23:23:04",
+      "2023-07-16 04:25:04"
+    ],
+    "creation_date": "1999-07-16 02:14:24",
+    "expiration_date": "2033-07-16 02:14:24",
+    "name_servers": [
+      "NS1.BLUEHOST.COM",
+      "NS2.BLUEHOST.COM"
+    ],
+    "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "emails": [
+      "domain.operations@web.com",
+      "fespenak@aol.com"
+    ],
+    "dnssec": "unsigned",
+    "name": "MrEclipse.com",
+    "org": "MrEclipse.com",
+    "address": "PO BOX 16197",
+    "city": "PORTAL",
+    "state": "AZ",
+    "registrant_postal_code": "85632-1197",
+    "country": "US"
+  },
+  "drpernell.com": {
+    "domain_name": "DRPERNELL.COM",
+    "registrar": "Network Solutions, LLC",
+    "registrar_url": "http://networksolutions.com",
+    "reseller": null,
+    "whois_server": "whois.networksolutions.com",
+    "referral_url": null,
+    "updated_date": [
+      "2023-06-18 17:09:13",
+      "2023-06-18 17:10:25"
+    ],
+    "creation_date": "1999-10-11 20:37:22",
+    "expiration_date": "2028-10-11 20:37:22",
+    "name_servers": [
+      "DNS.ADAPTIVE.NET",
+      "DNS2.ADAPTIVE.NET"
+    ],
+    "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "emails": [
+      "domain.operations@web.com",
+      "xg2c97ny6ju@networksolutionsprivateregistration.com"
+    ],
+    "dnssec": "unsigned",
+    "name": "PERFECT PRIVACY, LLC",
+    "org": null,
+    "address": "5335 Gate Parkway care of Network Solutions PO Box 459",
+    "city": "Jacksonville",
+    "state": "FL",
+    "registrant_postal_code": "32256",
+    "country": "US"
+  },
+  "mikelevin.com": {
+    "domain_name": "MIKELEVIN.COM",
+    "registrar": "GoDaddy.com, LLC",
+    "registrar_url": [
+      "http://www.godaddy.com",
+      "https://www.godaddy.com"
+    ],
+    "reseller": null,
+    "whois_server": "whois.godaddy.com",
+    "referral_url": null,
+    "updated_date": [
+      "2023-10-21 15:47:43",
+      "2023-10-21 10:47:41"
+    ],
+    "creation_date": [
+      "1999-01-22 05:00:00",
+      "1999-01-22 00:00:00"
+    ],
+    "expiration_date": [
+      "2029-01-22 05:00:00",
+      "2029-01-22 00:00:00"
+    ],
+    "name_servers": [
+      "NS.NEWDREAM.NET",
+      "NS2.NEWDREAM.NET"
+    ],
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientRenewProhibited https://icann.org/epp#clientRenewProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+    ],
+    "emails": "abuse@godaddy.com",
+    "dnssec": "unsigned",
+    "name": "Registration Private",
+    "org": "Domains By Proxy, LLC",
+    "address": [
+      "DomainsByProxy.com",
+      "100 S. Mill Ave, Suite 1600"
+    ],
+    "city": "Tempe",
+    "state": "Arizona",
+    "registrant_postal_code": "85281",
+    "country": "US"
+  },
+  "darkwaver.com": {
+    "domain_name": "DARKWAVER.COM",
+    "registrar": "GoDaddy.com, LLC",
+    "registrar_url": [
+      "http://www.godaddy.com",
+      "https://www.godaddy.com"
+    ],
+    "reseller": null,
+    "whois_server": "whois.godaddy.com",
+    "referral_url": null,
+    "updated_date": [
+      "2025-06-13 14:30:26",
+      "2025-06-13 09:30:24"
+    ],
+    "creation_date": [
+      "2000-06-12 20:46:22",
+      "2000-06-12 15:46:22"
+    ],
+    "expiration_date": [
+      "2026-06-12 20:46:22",
+      "2026-06-12 15:46:22"
+    ],
+    "name_servers": [
+      "NS1.SSDLINUX37.ACCUWEBHOSTING.COM",
+      "NS2.SSDLINUX37.ACCUWEBHOSTING.COM"
+    ],
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientRenewProhibited https://icann.org/epp#clientRenewProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+    ],
+    "emails": "abuse@godaddy.com",
+    "dnssec": "unsigned",
+    "name": "Registration Private",
+    "org": "Domains By Proxy, LLC",
+    "address": [
+      "DomainsByProxy.com",
+      "100 S. Mill Ave, Suite 1600"
+    ],
+    "city": "Tempe",
+    "state": "Arizona",
+    "registrant_postal_code": "85281",
+    "country": "US"
+  },
+  "jamesyawn.net": {
+    "domain_name": "JAMESYAWN.NET",
+    "registrar": "TUCOWS, INC.",
+    "registrar_url": [
+      "http://www.tucows.com",
+      "http://tucowsdomains.com"
+    ],
+    "reseller": "PowWeb",
+    "whois_server": "whois.tucows.com",
+    "referral_url": null,
+    "updated_date": "2025-07-27 10:22:06",
+    "creation_date": "2007-08-09 21:16:12",
+    "expiration_date": "2026-08-09 21:16:12",
+    "name_servers": [
+      "NS1.POWWEB.COM",
+      "NS2.POWWEB.COM"
+    ],
+    "status": "ok https://icann.org/epp#ok",
+    "emails": [
+      "domainabuse@tucows.com",
+      "jamesyawn.net@contactprivacy.com",
+      "support@powweb.com"
+    ],
+    "dnssec": "unsigned",
+    "name": "Contact Privacy Inc. Customer 0115528556",
+    "org": "Contact Privacy Inc. Customer 0115528556",
+    "address": "96 Mowat Ave",
+    "city": "Toronto",
+    "state": "ON",
+    "registrant_postal_code": "M6K 3M1",
+    "country": "CA"
+  },
+  "thebobclub.com": {
+    "domain_name": "THEBOBCLUB.COM",
+    "registrar": "TUCOWS, INC.",
+    "registrar_url": [
+      "http://www.tucows.com",
+      "http://tucowsdomains.com"
+    ],
+    "reseller": "Stablepoint",
+    "whois_server": "whois.tucows.com",
+    "referral_url": null,
+    "updated_date": [
+      "2024-11-10 00:22:02",
+      "2024-12-05 19:16:45"
+    ],
+    "creation_date": "2003-11-13 18:41:11",
+    "expiration_date": "2025-11-13 18:41:11",
+    "name_servers": [
+      "NS1.MYWEBCOMPANY.COM",
+      "NS2.MYWEBCOMPANY.COM"
+    ],
+    "status": "ok https://icann.org/epp#ok",
+    "emails": [
+      "domainabuse@tucows.com",
+      "support@stablepoint.com"
+    ],
+    "dnssec": "unsigned",
+    "name": "REDACTED FOR PRIVACY",
+    "org": "REDACTED FOR PRIVACY",
+    "address": "REDACTED FOR PRIVACY",
+    "city": "REDACTED FOR PRIVACY",
+    "state": "OH",
+    "registrant_postal_code": "REDACTED FOR PRIVACY",
+    "country": "US"
+  },
+  "cambridgeclarion.org": {
+    "domain_name": "cambridgeclarion.org",
+    "registrar": "Easyspace Limited",
+    "registrar_url": "http://www.easyspace.com",
+    "reseller": null,
+    "whois_server": "http://whois.easyspace.com",
+    "referral_url": null,
+    "updated_date": "2017-09-07 10:33:16",
+    "creation_date": "2002-08-22 08:26:23",
+    "expiration_date": "2027-08-22 08:26:24",
+    "name_servers": [
+      "ns1.namecity.com",
+      "ns2.namecity.com"
+    ],
+    "status": [
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+    ],
+    "emails": "abuse@easyspace.com",
+    "dnssec": "unsigned",
+    "name": "REDACTED",
+    "org": null,
+    "address": "REDACTED",
+    "city": "REDACTED",
+    "state": "North Lanarkshire",
+    "registrant_postal_code": "REDACTED",
+    "country": "GB"
+  },
+  "faculty.wcas.northwestern.edu": {
+    "domain_name": "NORTHWESTERN.EDU",
+    "creation_date": "1999-02-18 00:00:00",
+    "lats_modified": "25-Jul-2025",
+    "expiration_date": "2027-07-31 00:00:00"
+  },
+  "www10.big.or.jp": {
+    "domain_name": "BIG.OR.JP",
+    "registrant_org": null,
+    "organization_type": "Network Service",
+    "creation_date": null,
+    "technical_contact_name": "MT9301JP",
+    "administrative_contact_name": "TK1081JP",
+    "administrative_contact_email": null,
+    "administrative_contact_phone": null,
+    "administrative_contact_fax": null,
+    "administrative_contact_post_code": null,
+    "administrative_contact_postal_address": null,
+    "expiration_date": null,
+    "name_servers": [
+      "ns0.big.or.jp",
+      "ns1.big.or.jp"
+    ],
+    "updated_date": "2025/05/01 01:02:08 (JST)",
+    "signing_key": null,
+    "status": "Connected (2026/04/30)"
+  },
+  "ohiotrespassers.com": {
+    "domain_name": "OHIOTRESPASSERS.COM",
+    "registrar": "TUCOWS, INC.",
+    "registrar_url": [
+      "http://www.tucows.com",
+      "http://tucowsdomains.com"
+    ],
+    "reseller": "A Small Orange LLC",
+    "whois_server": "whois.tucows.com",
+    "referral_url": null,
+    "updated_date": "2023-12-10 09:03:41",
+    "creation_date": "2002-01-24 01:16:25",
+    "expiration_date": "2026-01-24 01:16:25",
+    "name_servers": [
+      "NS1.ASOSHARED.COM",
+      "NS2.ASOSHARED.COM"
+    ],
+    "status": [
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+    ],
+    "emails": [
+      "domainabuse@tucows.com",
+      "help@asmallorange.com"
+    ],
+    "dnssec": "unsigned",
+    "name": "REDACTED FOR PRIVACY",
+    "org": "REDACTED FOR PRIVACY",
+    "address": "REDACTED FOR PRIVACY",
+    "city": "REDACTED FOR PRIVACY",
+    "state": "AZ",
+    "registrant_postal_code": "REDACTED FOR PRIVACY",
+    "country": "US"
+  },
+  "taco.com": {
+    "domain_name": "TACO.COM",
+    "registrar": "TUCOWS, INC.",
+    "registrar_url": [
+      "http://www.tucows.com",
+      "http://tucowsdomains.com"
+    ],
+    "reseller": "Technical Advisors, Inc.",
+    "whois_server": "whois.tucows.com",
+    "referral_url": null,
+    "updated_date": "2025-05-04 03:50:44",
+    "creation_date": "1995-06-03 04:00:00",
+    "expiration_date": "2026-06-02 04:00:00",
+    "name_servers": [
+      "DANE.NS.CLOUDFLARE.COM",
+      "MARY.NS.CLOUDFLARE.COM"
+    ],
+    "status": [
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+    ],
+    "emails": [
+      "domainabuse@tucows.com",
+      "admin@taco.com"
+    ],
+    "dnssec": "signedDelegation",
+    "name": "REDACTED FOR PRIVACY",
+    "org": "REDACTED FOR PRIVACY",
+    "address": "REDACTED FOR PRIVACY",
+    "city": "REDACTED FOR PRIVACY",
+    "state": "NJ",
+    "registrant_postal_code": "REDACTED FOR PRIVACY",
+    "country": "US"
+  },
+  "beerstein.net": {
+    "domain_name": "BEERSTEIN.NET",
+    "registrar": "Network Solutions, LLC",
+    "registrar_url": "http://networksolutions.com",
+    "reseller": null,
+    "whois_server": "whois.networksolutions.com",
+    "referral_url": null,
+    "updated_date": [
+      "2021-01-04 07:49:13",
+      "2021-01-04 07:49:23"
+    ],
+    "creation_date": "1999-03-05 05:00:00",
+    "expiration_date": "2026-03-05 05:00:00",
+    "name_servers": [
+      "ANNA.NS.CLOUDFLARE.COM",
+      "CLINT.NS.CLOUDFLARE.COM"
+    ],
+    "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "emails": [
+      "domain.operations@web.com",
+      "a53sn74m52v@networksolutionsprivateregistration.com"
+    ],
+    "dnssec": "unsigned",
+    "name": "PERFECT PRIVACY, LLC",
+    "org": null,
+    "address": "5335 Gate Parkway care of Network Solutions PO Box 459",
+    "city": "Jacksonville",
+    "state": "FL",
+    "registrant_postal_code": "32256",
+    "country": "US"
+  },
+  "mulsannescorner.com": {
+    "domain_name": "MULSANNESCORNER.COM",
+    "registrar": "PDR Ltd. d/b/a PublicDomainRegistry.com",
+    "registrar_url": [
+      "http://www.publicdomainregistry.com",
+      "www.publicdomainregistry.com"
+    ],
+    "reseller": null,
+    "whois_server": "whois.PublicDomainRegistry.com",
+    "referral_url": null,
+    "updated_date": [
+      "2024-10-26 01:31:42",
+      "2024-10-26 01:31:43"
+    ],
+    "creation_date": "2000-10-27 01:58:26",
+    "expiration_date": "2025-10-27 01:58:26",
+    "name_servers": [
+      "NS1.WEBZDNS.COM",
+      "NS2.WEBZDNS.COM",
+      "NS3.WEBZDNS.COM"
+    ],
+    "status": "ok https://icann.org/epp#ok",
+    "emails": [
+      "abuse-contact@publicdomainregistry.com",
+      "contact@privacyprotect.org"
+    ],
+    "dnssec": "unsigned",
+    "name": "Domain Admin",
+    "org": "Privacy Protect, LLC (PrivacyProtect.org)",
+    "address": "10 Corporate Drive",
+    "city": "Burlington",
+    "state": "MA",
+    "registrant_postal_code": "01803",
+    "country": "US"
+  },
+  "unmask.sucuri.net": {
+    "domain_name": "SUCURI.NET",
+    "registrar": "GoDaddy.com, LLC",
+    "registrar_url": [
+      "http://www.godaddy.com",
+      "https://www.godaddy.com"
+    ],
+    "reseller": null,
+    "whois_server": "whois.godaddy.com",
+    "referral_url": null,
+    "updated_date": [
+      "2023-04-21 14:48:58",
+      "2023-04-21 09:48:56"
+    ],
+    "creation_date": [
+      "2009-04-24 17:52:45",
+      "2009-04-24 12:52:45"
+    ],
+    "expiration_date": [
+      "2029-04-24 17:52:45",
+      "2029-04-24 12:52:45"
+    ],
+    "name_servers": [
+      "10.SUCURIDNS.COM",
+      "11.SUCURIDNS.COM",
+      "12.SUCURIDNS.COM",
+      "13.SUCURIDNS.COM"
+    ],
+    "status": [
+      "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+      "clientRenewProhibited https://icann.org/epp#clientRenewProhibited",
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited"
+    ],
+    "emails": "abuse@godaddy.com",
+    "dnssec": "unsigned",
+    "name": "Registration Private",
+    "org": "Domains By Proxy, LLC",
+    "address": [
+      "DomainsByProxy.com",
+      "100 S. Mill Ave, Suite 1600"
+    ],
+    "city": "Tempe",
+    "state": "Arizona",
+    "registrant_postal_code": "85281",
+    "country": "US"
+  },
+  "ayukov.com": {
+    "domain_name": "AYUKOV.COM",
+    "registrar": "Registrar of Domain Names REG.RU LLC",
+    "registrar_url": [
+      "http://www.reg.ru",
+      "https://www.reg.com"
+    ],
+    "reseller": null,
+    "whois_server": "whois.reg.com",
+    "referral_url": null,
+    "updated_date": [
+      "2024-12-04 16:22:03",
+      "0001-01-01 00:00:00"
+    ],
+    "creation_date": [
+      "1998-10-21 04:00:00",
+      "1998-10-21 05:00:00"
+    ],
+    "expiration_date": [
+      "2026-10-20 04:00:00",
+      "2026-10-20 05:00:00"
+    ],
+    "name_servers": [
+      "NS1.HOSTING.REG.RU",
+      "NS2.HOSTING.REG.RU"
+    ],
+    "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "emails": [
+      "abuse@reg.ru",
+      "s.ayukov@gmail.com"
+    ],
+    "dnssec": "unsigned",
+    "name": "Personal data, can not be publicly disclosed according to applicable laws.",
+    "org": null,
+    "address": "Personal data, can not be publicly disclosed according to applicable laws.",
+    "city": "Personal data, can not be publicly disclosed according to applicable laws.",
+    "state": null,
+    "registrant_postal_code": "Personal data, can not be publicly disclosed according to applicable laws.",
+    "country": "Personal data, can not be publicly disclosed according to applicable laws."
+  },
+  "xcomufo.com": {
+    "domain_name": "XCOMUFO.COM",
+    "registrar": "NameCheap, Inc.",
+    "registrar_url": "http://www.namecheap.com",
+    "reseller": null,
+    "whois_server": "whois.namecheap.com",
+    "referral_url": null,
+    "updated_date": "2024-04-15 18:03:58",
+    "creation_date": "2002-09-09 03:54:16",
+    "expiration_date": "2026-09-09 03:54:59",
+    "name_servers": [
+      "PATRYK.NS.CLOUDFLARE.COM",
+      "VITA.NS.CLOUDFLARE.COM"
+    ],
+    "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "emails": "abuse@namecheap.com",
+    "dnssec": "unsigned",
+    "name": null,
+    "org": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "registrant_postal_code": null,
+    "country": null
+  },
+  "nerdylorrin.net": {
+    "domain_name": "NERDYLORRIN.NET",
+    "registrar": "Gandi SAS",
+    "registrar_url": "http://www.gandi.net",
+    "reseller": null,
+    "whois_server": "whois.gandi.net",
+    "referral_url": null,
+    "updated_date": "2025-04-06 20:22:31",
+    "creation_date": "2002-07-10 07:29:58",
+    "expiration_date": "2032-07-10 07:29:58",
+    "name_servers": [
+      "NS1.CRABAPPLE.NERDYLORRIN.NET",
+      "NS1.KIWI.NERDYLORRIN.NET"
+    ],
+    "status": "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+    "emails": "abuse@support.gandi.net",
+    "dnssec": "signedDelegation",
+    "name": null,
+    "org": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "registrant_postal_code": null,
+    "country": null
   }
 }

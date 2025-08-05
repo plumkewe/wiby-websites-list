@@ -21,7 +21,8 @@ def generate_row(data, screenshot_folder):
     for ext in ['png', 'jpg', 'jpeg']:
         path = os.path.join(screenshot_folder, f"{idx}.{ext}")
         if os.path.exists(path):
-            img_html = f'<img src="{path}" class="screenshot" onclick="window.open(\'{data["url"]}\')">'
+            # Lazy loading: use data-src instead of src
+            img_html = f'<img data-src="{path}" class="screenshot lazy-img" onclick="window.open(\'{data["url"]}\')" loading="lazy">'
             break
     return [
         idx,
@@ -157,6 +158,16 @@ def main():
             localStorage.setItem("datatable_current_page", pageIndex);
         }}
 
+        function loadVisibleImages() {{
+            $('#webTable tbody img.lazy-img').each(function () {{
+                const $img = $(this);
+                const src = $img.attr('data-src');
+                if (src && !$img.attr('src')) {{
+                    $img.attr('src', src);
+                }}
+            }});
+        }}
+
         $(document).ready(function () {{
             $('body').addClass('loading');
 
@@ -180,6 +191,10 @@ def main():
                 initComplete: function () {{
                     $('#loading-overlay').fadeOut(300);
                     $('body').removeClass('loading');
+                    loadVisibleImages(); // iniziale
+                }},
+                drawCallback: function () {{
+                    loadVisibleImages(); // a ogni redraw
                 }}
             }});
 
@@ -200,7 +215,7 @@ def main():
             }});
         }});
     </script>
-    </body>
+</body>
 </html>
 '''
     with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
